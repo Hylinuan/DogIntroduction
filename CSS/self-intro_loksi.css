@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Glegoo', serif;
+	background-image: url(../OtherPic/loksi_bg.png);
+	background-repeat: no-repeat;
+	background-position: right -39px;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+}
+
+h3{
+	color: #09B2B1;
+	margin-top: -67px;
+	font-size: 50px;
+	padding-top: 0px;
+}
+
+h6{
+	font-size: 16px;
+	margin-top: -16px;
+	color: #22A181;
+}
+
+h1{
+	color: aliceblue;
+	font-size: 100px;
+}
+
+p{
+	font-size: 17px;
+	margin-top: -2px;
+	margin-right: auto;
+	margin-left: 792px;
+	margin-bottom: 6px;
+}
+
+div.BodyContainer{
+	float: left;
+	position: relative;
+	font-size: 33px;
+	top: 12px;
+	left: 29px;
+}
+
+div.photo{
+	float: right;
+	width: 630px;
+	margin-top: -469px;
+	margin-right: 68px;
+	margin-left: 995px;
+	margin-bottom: 281px;
+}
+
+div.introduce{
+	position: absolute;
+	float: right;
+	width: 756px;
+	right: -109px;
+	top: 456px;
+}
+div.icon{
+	margin-top: -161px;
+	margin-bottom: -23px;
+	margin-left: 131px;
+}
+div.text{
+	top: 153px;
+	bottom: 145px;
+	position: relative;
+}
+div.detail{
+	margin-left: -650px;
+	color: #FC1F5D;
+	margin-top: -147px;
+}
+
+div.say{
+	margin-left: -404px;
+	color: #0D68AA;
+	margin-right: -93px;
+	top: 122px;
+	bottom: 147px;
+	margin-top: -226px;
+}
+
+div.fillin{
+	position: relative;
+	margin-left: -412pt;
+	color: #0D68AA;
+	top: 30px;
+	margin-top: -135px;
+}
+
+
+a:link{
+	color: #FC1F5D;
+}
+a:visited{
+	color:#0EABAF;
+}
+.say .byline{
+	color:#FC1F5D;
+}
+
+#footer{
+	color: #FFFFFF;
+	position: absolute;
+	margin-top: 922px;
+	margin-left: -570px;
+	transform: rotate(-90deg);
+}

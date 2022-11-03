@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>DOG COLLECTION</title>
+	<style>
+		<!--
+		td {
+			border-color: #3E95D4
+		}
+
+		.td_normal {
+			background-color: #FFFFFF;
+			border-color: #3E95D4;
+		}
+
+		.td_highlight {
+			background-color: #FFbfbf;
+			border-color: #FF2D2D;
+			border-style: bold;
+			border-width: 3px;
+		}
+		-->
+	</style>
+</head>
+<!--<link href = "CSS/mainpage_sty.css" rel = "styleSheet" type = "text/css" />
+	-->
+<link href="CSS/mainpage_sty.css" rel="styleSheet" />
+<link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="styleSheet">
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="styleSheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:200" rel="styleSheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="styleSheet">
+<link href="https://fonts.googleapis.com/css?family=Yantramanav:900" rel="styleSheet">
+<link href="https://fonts.googleapis.com/css?family=Advent+Pro" rel="styleSheet">
+<script src="jquery.min.js" language="javaScript"></script>
+
+
+<!-------------------------->
+<script>
+	function toggleSidebar() {
+		document.getElementById("sidebar").classList.toggle('active');
+	}
+
+</script>
+
+<head>
+	<div id="sidebar">
+		<div class="toggle-btn" onclick="toggleSidebar()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div id="javaScript">
+			<ul>
+				<li><input type="button" value="About us" onClick="ab('#about')" id="button"></li>
+				<li><input type="button" value="Home" onClick="ab('#Home')" id="button"></li>
+				<li><input type="button" value="Information" onClick="ab('#information')" id="button"></li>
+				<li><a href="https://www.shu.edu.tw/" style="text-decoration: none">SHU</a></li>
+				<li><a href="CSS/mainpage_sty.css" style="text-decoration: none"> CSS</a></li>
+				<li><a href="Reference.html" style="text-decoration: none"> Reference</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<script language="javaScript">
+		function ab(bar) {
+			$('html,body').animate({ scrollTop: $(bar).offset().top }, 800);
+		};
+
+	</script>
+
+</head>
+
+<script type="text/javaScript">
+
+	$(function(){
+		var welcomeSection = $('.welcome-section'), enter-button = welcomeSection.find('.enter-button');
+		setTimeout(function(){
+			welcomeSection.removeClass('content-hidden');
+		}, 500);
+		
+		enterButton.on('click', function(e){
+			e.preventDefault();
+			welcomeSection.addClass('content-hidden').fadeOut();
+		})
+	})();
+	
+</script>
+
+<body>
+
+	<!-- starting -->
+	<div class="welcome-section content-hidden">
+		<div class="content-wrap">
+			<ul class="fly-in-text">
+				<li>H</li>
+				<li>i</li>
+			</ul>
+
+			<a href="#" class="enter-button">Enter</a>
+		</div>
+	</div>
+
+	<div class="aboutPic">
+		<!-- about-->
+		<img src="OtherPic/about.jpg" alt="About" id="about" />
+		<span class="info"> About Us </span>
+	</div>
+
+	<div class="content">
+		<h1>DOG</h1>
+		<p>A four legged creature which symbolize as the faithful and loyal friend of man.
+			Whatever the situation they are facing, nothing will induce them to leave their master.
+			They obey all the orders of their owner very sincerely.
+			And using their acute sense, being alert all time whether day or night to offer its services to the owner.
+			But sometimes, they also do silly things to bring joy to their master or others. </p>
+		<h2>\ Purpose of creating this website</h2>
+		<p>Beside this is part of the project which attach great importance to this lecture,<br> we all appreciate doggy
+			as a pet,
+			which let us release from the daily stress or anxiety by watching their dumb action with their cute face, no
+			matter on the street or in the Internet. So we want to use this opportunity to share this short moment of
+			happiness to everyone of you. </p>
+		<p>Thus, we choose the most common dog breeds as our sources to introduce most of the features and
+			characteristic of them. Using a simple and minimal design style to interpret our concept, avoid using
+			complex structure to create unnecessary troubles. Wish all of you can earn something while browsing.</p>
+		<h2>\MEMBER:</h2>
+
+	</div>
+	<div class="icon">
+		<a href="./Introduction/self-intro_loksi.html"><img src="OtherPic/loksi_icon.png"></a>
+	</div>
+	<div class="icon2">
+		<a href="Introduction/Introduction-Sherry.html"><img src="OtherPic/Sherry-MainPage.jpg"
+				onMouseOver="this.src = 'https://images-na.ssl-images-amazon.com/images/I/31%2BY5DIvgnL._SX342_.jpg'"
+				onclick="this.src = 'https://images-fe.ssl-images-amazon.com/images/I/41H7gHcKW4L._SX342_.jpg'"
+				onMouseOut="this.src = 'OtherPic/Sherry-MainPage.jpg'"></a>
+	</div>
+	<div class="icon3">
+		<a href="./Introduction/About_ShiBin.html"><img src="OtherPic/shibin_icon.png"></a>
+	</div>
+	<!--photos-->
+	<div class="aboutLogo">
+		<a href="#about"><img src="OtherPic/about_logo.png" id="Home" /></a>
+	</div>
+	<div class="slider_container">
+
+		<div>
+			<img src="./OtherPic/M1.jpg" alt="DOG's COLLECTION" />
+		</div>
+		<div>
+			<img src="OtherPic/M2.jpg" alt="DOG's COLLECTION" />
+		</div>
+		<div>
+			<img src="OtherPic/M3.jpg" alt="DOG's COLLECTION" />
+		</div>
+	</div>
+
+	<div class="page3_table">
+		<table border="1" bordercolor="#FFFFFF" width="1000" height="1000" cellpadding="10" cellspacing="10"
+			align=center TFOOT="-500">
+			<tr height="250">
+				<!--1,x-->
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--1,1-->
+					<a href="Links/01.html"
+						onClick="window.open('Links/01.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/01.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--1,2-->
+					<a href="Links/02.html"
+						onClick="window.open('Links/02.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/02.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--1,3-->
+					<a href="Links/03.html"
+						onClick="window.open('Links/03.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/03.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--1,4-->
+					<a href="Links/04.html"
+						onClick="window.open('Links/04.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/04.png" width="200" height="200"></img></a>
+				</td>
+			</tr>
+
+			<tr>
+				<!--2,x-->
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--2,1-->
+					<a href="Links/05.html"
+						onClick="window.open('Links/05.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/05.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--2,2-->
+					<a href="Links/06.html"
+						onClick="window.open('Links/06.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/06.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--2,3-->
+					<a href="Links/07.html"
+						onClick="window.open('Links/07.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/07.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--2,4-->
+					<a href="Links/08.html"
+						onClick="window.open('Links/08.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/08.png" width="200" height="200"></img></a>
+				</td>
+			</tr>
+
+			<tr>
+				<!--3,x-->
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--3,1-->
+					<a href="Links/09.html"
+						onClick="window.open('Links/09.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/09.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--3,2-->
+					<a href="Links/10.html"
+						onClick="window.open('Links/10.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/10.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--3,3-->
+					<a href="Links/11.html"
+						onClick="window.open('Links/11.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/11.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--3,4-->
+					<a href="Links/12.html"
+						onClick="window.open('Links/12.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/12.png" width="200" height="200"></img></a>
+				</td>
+			</tr>
+
+			<tr>
+				<!--4,x-->
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--4,1-->
+					<a href="Links/13.html"
+						onClick="window.open('Links/13.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/13.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--4,2-->
+					<a href="Links/14.html"
+						onClick="window.open('Links/14.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/14.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--4,3-->
+					<a href="Links/15.html"
+						onClick="window.open('Links/15.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/15.png" width="200" height="200"></img></a>
+				</td>
+				<td class="td_normal" width="230" onMouseOver="this.className='td_highlight'"
+					onMouseOut="this.className='td_normal'">
+					<!--4,4-->
+					<a href="Links/16.html"
+						onClick="window.open('Links/16.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0');return false"><img
+							src="Pic/16.png" width="200" height="200"></img></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+	<!--
+<div class="foot">
+	<div class="btn"><i class="fa fa-home" aria-hidden="true"></i></div>
+	<div class="btn"><i class="fa fa-file-code-o" aria-hidden="true"></i></div>
+	<div class="btn"><i class="fa fa-info-circle" aria-hidden="true"></i></div>
+	<div class="btn"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+	<div class="btn"><i class="fa fa-comments" aria-hidden="true"></i></div>
+</div>
+-->
+
+	<div class="foot" id="information">
+		<ul>
+			<li><a href="CSS"><i class="fa fa-file-code-o" aria-hidden="true"></i></a></li>
+			<li><a href="https://en.wikipedia.org/wiki/List_of_dog_breeds"><i class="fa fa-info-circle"
+						aria-hidden="true"></i></a></li>
+			<li><a href="mailto:A103040110@mail.shu.edu.tw"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+			<li><a href='Reference.html'><i class="fa fa-folder-open" alt="reference" aria-hidden="true"></i></a></li>
+		</ul>
+
+		<footer>
+			<div id="footer_container">
+				<div class="logo_text">
+					<p>#DOG<br>COLLECTION</p>
+					<span>since 2017</span>
+				</div>
+				<p class="copyright_text" style="font-family: 'Quicksand',sans-serif;"> &copy; coypright 2017GROUP3.
+					designed and developed by GROUP3.</p>
+			</div>
+			<div class="back_Top">
+				<i class="fa fa-arrow-up" aria-hidden="true"><input type="button" value="TOP" onClick="ab('#Home')"></i>
+			</div>
+		</footer>
+</body>
+
+</html>

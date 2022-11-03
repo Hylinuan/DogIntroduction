@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta(name="viewport" content="width=device-width, initial-scale=1")></meta(name>
+<title>LAMLOKSI</title>
+<link rel="stylesheet" href="../CSS/self-intro_loksi.css">
+<link href="https://fonts.googleapis.com/css?family=Glegoo" rel="stylesheet">
+
+<script>
+  function ChangeImage(imageName, newImageFile) {
+    // Find the object that represents the img element.
+    var image = document.getElementById(imageName)
+    // Change the picture.
+    image.src = newImageFile
+  }
+</script>
+</head>
+
+<body>
+
+<div class="BodyContainer">
+<h1>I'M LOKSI.</h1>
+<h3>ILLUSTRATOR/EDITOR</h3>
+<h6><i>from Department of Radio, Television and Film</i></h6>
+</div>
+
+<div class="introduce">
+<div class="icon">
+<img src="../OtherPic/loksi_icon.png" width="200" height="200">	
+</div>
+<div class="photo">
+<img id="SwappableImage" src="../OtherPic/loksi_hand.png"width="650" height="650" onmouseover="ChangeImage('SwappableImage', '../OtherPic/loksi_hand_color.png')" alt=""
+onmouseout="ChangeImage('SwappableImage', '../OtherPic/loksi_hand.png')" />
+</div>	<div class="text">
+	<div class="detail">
+		<p>Name</p>
+		<p>Class</p>
+		<p>No</p> 
+    </div>
+	<div class="fillin">
+	<p>林樂詩</p>
+	<p>電影四甲</p>
+	<p>A103040110</p>
+	</div>
+	<div class="say">
+    <p class="byline">//Something wanna say;</p>
+	<p>以動物品種來說鍾愛哪種類的話，</p>
+	<p>比起狗這種類別，</p>
+	<p>我比較喜歡與貓在一起...</p>
+	<p>但我也是有喜愛的狗種</p>
+	<p>就是...</p><a href="../Links/05.html" onClick="window.open('../Links/05.html','test','width=800,height=700,directories=no,location=no,menubar=no,scrollbars=yes,status=no,toolbar=no,resizable=no,left=5,top=50,screenX=0,screenY=0')"><p>Click ME</p></a>
+	</div>
+</div>
+</div>
+
+
+<div id="footer">
+<p>CopyRight&copy;2017WEBPROGRAMMING_LAMLOKSI</p>
+</div>	
+
+
+
+</body>
+</html>
